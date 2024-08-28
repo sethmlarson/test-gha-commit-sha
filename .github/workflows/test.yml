@@ -4,7 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@b0c69d07488239a9bfac775120878f11d70360a8
+      - uses: shazow/setup-python@b0c69d07488239a9bfac775120878f11d70360a8
         with:
           python-version: 3.x
 
