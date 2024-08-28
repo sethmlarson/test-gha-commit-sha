@@ -4,7 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@dcfea3dc42cb8b74ad61909e2128df36f7e9fd88
+      - uses: actions/setup-python@b0c69d07488239a9bfac775120878f11d70360a8
         with:
           python-version: 3.x
 
